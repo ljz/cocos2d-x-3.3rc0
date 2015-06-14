@@ -35,7 +35,8 @@ Controller g_aTestNames[] = {
     //     violators will be prosecuted
     //
 	{ "ActionManager", [](){return new ActionManagerTestScene(); } },
-	{ "Actions - Basic", [](){ return new ActionsTestScene(); } },
+/*
+    { "Actions - Basic", [](){ return new ActionsTestScene(); } },
 	{ "Actions - Ease", [](){return new ActionsEaseTestScene();} },
 	{ "Actions - Progress", [](){return new ProgressActionsTestScene(); } },
 	{ "Audio - CocosDenshion", []() { return new CocosDenshionTestScene(); } },
@@ -108,6 +109,8 @@ Controller g_aTestNames[] = {
     { "URL Open Test", []() { return new OpenURLTestScene(); } },
 	{ "UserDefault", []() { return new UserDefaultTestScene(); } },
 	{ "Zwoptex", []() { return new ZwoptexTestScene(); } },
+
+ */
 };
 
 static int g_testCount = sizeof(g_aTestNames) / sizeof(g_aTestNames[0]);
